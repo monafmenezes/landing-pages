@@ -1,10 +1,11 @@
+import Heading from '../../components/Heading';
 import { Wrapper } from './styles';
 
 function Home() {
   return (
     <div className="App">
       <Wrapper background="pink">
-        <h1>Hello</h1>
+        <Heading>Olá</Heading>
       </Wrapper>
     </div>
   );
